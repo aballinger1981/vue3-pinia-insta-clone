@@ -1,7 +1,7 @@
 <template>
   <v-sheet class="auth-form-container">
     <v-row>
-      <v-img src="/public/logo.png" />
+      <v-img src="/logo.png" />
     </v-row>
     <v-row>
       <LoginForm v-if="isLogin" />

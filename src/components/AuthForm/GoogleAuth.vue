@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col class="logo-text-container">
-      <v-img class="google-image" src="/public/google.png" width="1.25rem" />
+      <v-img class="google-image" src="/google.png" width="1.25rem" />
       <span class="google-text" @click="handleLogin">{{ prefix }} with Google</span>
     </v-col>
   </v-row>
