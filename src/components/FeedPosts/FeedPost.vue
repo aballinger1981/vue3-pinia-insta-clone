@@ -64,8 +64,9 @@ const followUser = async () => {
 
 <style scoped lang="scss">
 .feed-post {
-  cursor: pointer;
-
+  .v-avatar{
+    cursor: pointer;
+  }
   .feed-post-image {
     border-radius: 4px;
   }
