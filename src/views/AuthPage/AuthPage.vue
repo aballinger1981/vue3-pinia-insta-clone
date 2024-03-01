@@ -2,7 +2,7 @@
   <v-container :style="{ width: isXs ? '80%' : '40rem' }">
     <v-row justify="center">
       <v-col v-if="isMediumAndAbove">
-        <v-img class="auth-image" src="../../../public/auth.png" />
+        <v-img class="auth-image" src="/auth.png" />
       </v-col>
       <v-col class="auth-form-column" sm="6">
         <AuthForm />

@@ -1,6 +1,6 @@
 <template>
   <v-app-bar height="80">
-    <v-img class="logo" src="../../../public/logo.png" height="100%" width="auto"
+    <v-img class="logo" src="/public/logo.png" height="100%" width="auto"
       :style="{ display: isSmallAndAbove ? 'block' : 'none' }"></v-img>
     <v-container :style="{ display: 'flex', justifyContent: isSmallAndAbove ? 'flex-end' : 'center' }">
       <RouterLink to="/auth">
